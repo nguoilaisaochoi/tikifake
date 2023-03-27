@@ -1,0 +1,706 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: auto;
+  background-color: #f8f8f8;
+}
+/*nền tìm kiếm*/
+.header {
+  position: fixed;
+  background-color: #ffffff;
+  width: 100%;
+  height: 88px;
+  z-index: 2;
+}
+/*màu phần thân*/
+.menu {
+  /* trai cay thit trung...*/
+  position: relative;
+  padding: 0 6px;
+  text-decoration: none;
+  color: #808089;
+  left: 165px;
+  top: -10px;
+}
+.img {
+  /*logo tiki*/
+  position: relative;
+  left: 63px;
+  top: 8px;
+}
+.lin {
+  /*|*/
+  position: relative;
+  left: 921px;
+  top: -26px;
+  height: 20px;
+}
+.iconsearch {
+  /*icon tìm kiếm*/
+  position: absolute;
+  left: 187px;
+  top: 20px;
+}
+.button {
+  /*nút tìm kiếm*/
+  text-decoration: none;
+  padding: 9.1px 16px;
+  color: #808089;
+  position: relative;
+  left: 917px;
+  top: -29.4px;
+  transition: 0.3s ease;
+}
+.button:hover {
+  /*Khi rê vào nút tìm kiếm*/
+  color: #0a68ff;
+  text-decoration: none;
+  background-color: #0a68ff37;
+  border-radius: 0 5px 5px 0;
+}
+.search {
+  /*thanh tìm kiếm(input)*/
+  border: 1px solid #ded3d3;
+  border-radius: 6px;
+  position: absolute;
+  left: 170px;
+  top: 10px;
+  width: 700px;
+  height: 31px;
+  padding: 5px 100px 0 45px;
+  transition: 0.5s ease;
+  font-size: 14px;
+}
+
+/*Đường viền input khi nhấn*/
+.search:focus {
+  outline: none;
+}
+
+/*nền trang chủ*/
+#trangchu {
+  display: inline-block;
+  position: relative;
+  left: 1150px;
+  top: -87%;
+  width: 110px;
+  height: 40px;
+  transition: 0.3s ease;
+  border-radius: 10px;
+}
+/*trang chủ rê chuột*/
+#trangchu:hover {
+  background-color: #4c8ffb26;
+  border-radius: 10px;
+}
+/*trang chủ khi nhấn*/
+#trangchu:focus {
+  background-color: #2173f758;
+  border-radius: 10px;
+}
+/*chữ "trang chủ"*/
+#trangchu > p {
+  color: #0a68ff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: small;
+  position: relative;
+  top: -43px;
+  left: 40px;
+}
+/*ảnh icon trang chủ*/
+#trangchu > img {
+  width: 24px;
+  height: 24px;
+  margin: 8px;
+}
+/*nền tài khoản*/
+#taikhoan {
+  display: inline-block;
+  position: relative;
+  left: 1170px;
+  top: -87%;
+  width: 110px;
+  height: 40px;
+  transition: 0.2s ease;
+  border-radius: 10px;
+}
+/*tài khoản rê chuột*/
+#taikhoan:hover {
+  background-color: #91919126;
+  border-radius: 10px;
+}
+/*tài khoản khi nhấn*/
+#taikhoan:focus {
+  background-color: #62646658;
+  border-radius: 10px;
+}
+/*chữ "tài khoản"*/
+#taikhoan > p {
+  color: #808089;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: small;
+  position: relative;
+  top: -43px;
+  left: 40px;
+}
+/*ảnh icon tài khoản*/
+#taikhoan > img {
+  width: 24px;
+  height: 24px;
+  margin: 8px;
+}
+/*nền giỏ hàng*/
+#giohang {
+  display: inline-block;
+  position: relative;
+  left: 1200px;
+  top: -95%;
+  width: 44px;
+  height: 40px;
+  transition: 0.2s ease;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+#slgiohang > strong {
+  position: relative;
+  top: -53px;
+  left: 60%;
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  border-radius: 30px;
+  padding: 3px 5px 3px 5px;
+  background-color: #ff424e;
+}
+/*| giỏ hàng*/
+#lingiohang {
+  position: relative;
+  left: 1190px;
+  top: -112px;
+  height: 25px;
+}
+/*giỏ hàng rê chuột*/
+#giohang:hover {
+  background-color: #4c8ffb26;
+  border-radius: 10px;
+}
+/*giỏ hàng khi nhấn*/
+#giohang:focus {
+  background-color: #2173f758;
+  border-radius: 10px;
+}
+/*ảnh icon giỏ hàng*/
+#giohang > img {
+  width: 24px;
+  height: 24px;
+  margin: 8px;
+}
+#img {
+  position: absolute;
+  top: 100px;
+  left: 170px;
+  width: 460px;
+  height: 1000px;
+  background-color: white;
+  border-radius: 5px 0px 0px 5px;
+}
+#header1 {
+  position: absolute;
+  top: 100px;
+  left: 631px;
+  width: 755px;
+  height: 125px;
+  background-color: white;
+}
+#body1 {
+  position: absolute;
+  top: 225px;
+  left: 631px;
+  width: 755px;
+  height: 875px;
+  background-color: white;
+}
+#ip14gold {
+  position: absolute;
+  cursor: pointer;
+  top: 470px;
+  left: 7px;
+  width: 444px;
+  height: 62px;
+  letter-spacing: 20px;
+}
+#ip14gold img {
+  position: relative;
+  left: 20px;
+  border-radius: 5px;
+}
+#ip14gold img {
+  border: 1px solid transparent;
+  transition: 0.2s ease;
+}
+#ip14gold img:hover {
+  box-shadow: 0px 0px 10px 2px rgba(199, 197, 197, 0.86);
+}
+#ip14gold a:focus img {
+  border: 1px solid #0d5cb6;
+}
+#header1 p {
+  position: relative;
+  left: 10px;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#left {
+  position: absolute;
+  width: 491px;
+  height: 875px;
+  background-color: white;
+}
+#price {
+  position: absolute;
+  margin: 5px;
+  width: 479px;
+  height: 103px;
+  background-color: #fafafa;
+  border-radius: 4px;
+}
+#giagiam {
+  position: relative;
+  top: 20px;
+  left: 20px;
+  font-size: 32px;
+  color: #ff424e;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#giagoc {
+  position: relative;
+  top: -2px;
+  left: 220px;
+  font-size: 15px;
+  color: #808089;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#phantramgiam {
+  position: relative;
+  bottom: 20px;
+  left: 320px;
+  font-size: 15px;
+  color: #ff424e;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#thuong {
+  position: absolute;
+  cursor: pointer;
+  top: 65px;
+  left: 20px;
+  width: 258px;
+  height: 29px;
+  background-color: #f2f0fe;
+  border: 0.5px solid rgb(198, 188, 248);
+  border-radius: 4px;
+  transition: 0.1s ease;
+}
+#thuong:hover {
+  background-color: #f8f7ff;
+  border: 0.5px solid rgb(208, 200, 247);
+}
+#new {
+  width: 42px;
+  height: 20px;
+  position: absolute;
+  right: -50px;
+  top: 5px;
+}
+#mau {
+  position: absolute;
+  top: 130px;
+  left: 10px;
+  color: #808089;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+#mau1 {
+  position: absolute;
+  top: 130px;
+  left: 40px;
+  color: #242424;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+#imgmau {
+  position: relative;
+  display: inline-block;
+  top: 160px;
+  left: 10px;
+  width: 144px;
+  height: 65px;
+  background-color: #e5f2ff;
+  border-radius: 4px;
+  border: 1px solid rgb(13, 92, 182);
+}
+#imgmautim {
+  position: relative;
+  display: inline-block;
+  top: 160px;
+  left: 20px;
+  width: 144px;
+  height: 65px;
+  background-color: #f2f2f2;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+#imgmautim a p {
+  padding: 30px;
+  position: absolute;
+  top: -8px;
+  left: 30px;
+  margin: auto;
+}
+#imgmautim:hover {
+  background: url(/img/selected-variant-indicator.svg) no-repeat;
+  background-position-x: right;
+  background-color: #e5f2ff;
+  border: 1px solid rgb(13, 92, 182);
+}
+#imgmau img {
+  position: relative;
+  top: 8px;
+  left: 3px;
+}
+#imgmau p {
+  display: inline-flex;
+  position: absolute;
+  top: 6px;
+  left: 60px;
+}
+#dungluong {
+  position: absolute;
+  left: 10px;
+  top: 230px;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#dungluong1 {
+  position: relative;
+  display: inline-flex;
+  top: 240px;
+  right: 285px;
+  width: 80px;
+  height: 32px;
+  background-color: #e5f2ff;
+  border-radius: 4px;
+  border: 1px solid rgb(13, 92, 182);
+}
+#dungluong1 img {
+  position: absolute;
+  right: 0px;
+  top: -2px;
+}
+#dungluong1 p {
+  margin: auto;
+  font-size: 13px;
+}
+#line {
+  position: relative;
+  top: 245px;
+  left: 10px;
+  width: 470px;
+  height: 72px;
+  border-top: 1px solid #e0e0e0;
+}
+#giamgia {
+  position: absolute;
+  width: 480px;
+  height: 75px;
+  top: 320px;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  left: 10px;
+  font-weight: bold;
+}
+#giam20 {
+  position: absolute;
+  display: inline-flex;
+  cursor: pointer;
+  width: 82px;
+  height: 28px;
+  top: 35px;
+  left: 10px;
+  border-radius: 4px;
+  border: 1px solid #0d5cb6;
+  transition: 0.2s ease;
+}
+#giam20:hover {
+  background-color: #0d5cb6;
+}
+#giam20:hover p {
+  color: white;
+}
+#giam20::after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border-width: 1px;
+  border-style: solid;
+  border-color: transparent rgb(13, 92, 182) rgb(13, 92, 182) transparent;
+  position: absolute;
+  top: 9px;
+  border-radius: 20px;
+  right: -6px;
+  transform: rotate(135deg);
+}
+#giam20::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(13, 92, 182) transparent transparent rgb(13, 92, 182);
+  position: absolute;
+  top: 9px;
+  border-radius: 20px;
+  left: -6px;
+  transform: rotate(135deg);
+}
+#giam20 p {
+  margin: auto;
+  font-size: 13px;
+  color: #0d5cb6;
+}
+#giam20 img {
+  position: absolute;
+  left: 80px;
+  bottom: 0px;
+  width: 28px;
+  height: 28px;
+}
+#diachi {
+  position: absolute;
+  top: 80px;
+}
+#ship {
+  position: relative;
+  display: inline-block;
+  top: 80px;
+  width: 233px;
+  height: 83px;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  margin: auto;
+}
+#ship p {
+  margin: auto;
+}
+#ship div {
+  margin: 10px;
+  font-size: 13px;
+}
+#vanchuyen {
+  position: relative;
+  top: -5px;
+  font-weight: normal;
+}
+#asa1 {
+  position: absolute;
+  top: 45px;
+  width: 187px;
+  height: 24px;
+  font-size: 13px;
+  background-color: #f2f0fe;
+  border-radius: 4px;
+}
+#asa1 p {
+  position: absolute;
+  margin: 1px;
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#dichvu {
+  position: absolute;
+  top: 210px;
+  width: 470px;
+  height: 36px;
+  border-top: 1px solid #e0e0e0;
+}
+
+#item {
+  position: absolute;
+  top: 245px;
+  width: 470px;
+  height: 72px;
+  font-size: 13px;
+  border-bottom: 1px solid #e0e0e0;
+}
+#sl {
+  position: absolute;
+  top: 330px;
+}
+#ban {
+  position: absolute;
+  cursor: not-allowed;
+  top: 25px;
+  left: 70px;
+  width: 30px;
+  height: 30px;
+}
+#chonmua {
+  position: relative;
+  cursor: pointer;
+  top: 300px;
+  width: 233px;
+  height: 48px;
+  background-color: #ff424e;
+  border: none;
+  border-radius: 4px;
+  color: #ffffff;
+  transition: 0.2s ease;
+}
+#chonmua:hover {
+  background-color: #fa5e68;
+}
+#tragop {
+  cursor: pointer;
+  position: relative;
+  top: 292px;
+  width: 233px;
+  height: 48px;
+  border-radius: 4px;
+  border: 1px solid#0a468a;
+  background-color: #f8f8f8;
+  transition: 0.3s ease;
+}
+#tragop:hover {
+  background-color: #ffffff;
+}
+#tragop p {
+  margin: 5px;
+  font-size: 15px;
+  font-weight: bolder;
+  color: #0a468a;
+}
+#tikitrading {
+  position: absolute;
+  width: 240px;
+  height: 348px;
+  right: 15px;
+}
+#tikitrading img {
+  width: 230px;
+  position: relative;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+}
+#hover {
+  display: inline-flex;
+  position: absolute;
+  top: 25px;
+  right: 35px;
+  width: 14px;
+  height: 14px;
+  background-color: green;
+}
+#thongtin {
+  display: inline-flex;
+  position: absolute;
+  top: 25px;
+  right: 35px;
+  width: 14px;
+  height: 14px;
+  border: 1px solid #0a468a;
+  border-radius: 50px;
+}
+#chitiet {
+  position: absolute;
+  top: 2px;
+  right: -300px;
+  width: 600px;
+  height: 233px;
+  background-color: white;
+  box-shadow: 0px 0px 5px 0px rgb(84, 84, 84);
+  z-index: 1;
+  display: none;
+}
+#chitiet div {
+  position: relative;
+  margin: 10px;
+  left: 60px;
+  font-size: 15px;
+}
+#chitiet li {
+  width: 630px;
+  position: relative;
+  right: 35px;
+  list-style: none;
+  font-size: 10px;
+  margin: 5px;
+}
+#chitiet img {
+  position: relative;
+  top: 3px;
+}
+#thongtin:hover #chitiet {
+  display: block;
+}
+#xemshop {
+  cursor: pointer;
+  position: relative;
+  display: inline-flex;
+  left: 510px;
+  top: 110px;
+  width: 102px;
+  height: 33px;
+  border-radius: 4px;
+  border: 1px solid #0d5cb6;
+  transition: 0.2s ease;
+}
+#iconchange {
+  margin: auto;
+  width: 20px;
+  height: 20px;
+  background: url(/img/iconxemshop.png) no-repeat;
+  background-size: 20px;
+}
+#xemshop:hover #iconchange {
+  background: url(/img/iconxemshop1.png) no-repeat;
+  background-size: 20px;
+}
+#iconchange1 {
+  margin: auto;
+  width: 20px;
+  height: 20px;
+  background: url(/img/icontheodoi.png);
+  background-size: 20px;
+}
+#xemshop:hover #iconchange1 {
+  background: url(/img/icontheodoi1.png);
+  background-size: 20px;
+}
+#xemshop:hover {
+  background-color: #1562b9;
+}
+#xemshop:hover p {
+  color: white;
+}
+#xemshop p {
+  margin: auto;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #0d5cb6;
+}
+#fame {
+  width: 444px;
+  height: 444px;
+}
+#fame iframe {
+  position: absolute;
+  width: 110%;
+  height: 100%;
+}
